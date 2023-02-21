@@ -58,7 +58,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\UITests\home\VulcanHomeTest.cs" />
-    <Compile Include="WebDriverInitializer\BrowserFactory.cs" />
+    <Compile Include="WebDriverInitializerr\BrowserFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
