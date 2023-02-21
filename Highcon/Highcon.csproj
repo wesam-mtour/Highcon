@@ -54,11 +54,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pom\HomePage.cs" />
+    <Compile Include="Pomm\HomePage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\UITests\home\VulcanHomeTest.cs" />
-    <Compile Include="WebDriverInitializerr\BrowserFactory.cs" />
+    <Compile Include="WebDriverInitializer\BrowserFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
