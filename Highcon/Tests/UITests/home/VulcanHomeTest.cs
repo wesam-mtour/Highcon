@@ -28,7 +28,7 @@ namespace Highcon.Tests.UITests.home
         {
             nlogger.logger.Info($"Test {TestContext.CurrentContext.Test.Name} started");
             String pageTitle = homePage.GetHomePageTitleName();
-            /* Test verification from the header title which should be equal to Job Queue */
+            nlogger.logger.Info("Test verification that the header title should match \"Job Queue\"");
             Assert.AreEqual(pageTitle, "Job Queue", "The title is not as expected");
         }
         [Test]
