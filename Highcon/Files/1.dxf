@@ -1,0 +1,1628 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$EXTMIN
+ 10
+0
+ 20
+0
+  9
+$EXTMAX
+ 10
+248
+ 20
+275.5
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70
+ 5
+  0
+LAYER
+  2
+Cutting
+ 70
+64
+ 62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+Marking
+ 70
+64
+ 62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+CreaseWithGrain
+ 70
+64
+ 62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+CreaseCrossGrain
+ 70
+64
+ 62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+SheetSize
+ 70
+64
+ 62
+7
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LINE
+  8
+SheetSize
+  6
+CONTINUOUS
+ 62
+6
+ 10
+0
+ 20
+0
+ 11
+248
+ 21
+0
+  0
+LINE
+  8
+SheetSize
+  6
+CONTINUOUS
+ 62
+6
+ 10
+248
+ 20
+0
+ 11
+248
+ 21
+275.5
+  0
+LINE
+  8
+SheetSize
+  6
+CONTINUOUS
+ 62
+6
+ 10
+248
+ 20
+275.5
+ 11
+0
+ 21
+275.5
+  0
+LINE
+  8
+SheetSize
+  6
+CONTINUOUS
+ 62
+6
+ 10
+0
+ 20
+275.5
+ 11
+0
+ 21
+0
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+204.2
+ 20
+192.75
+ 11
+204.2
+ 21
+172.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+204.2
+ 20
+152.75
+ 11
+204.2
+ 21
+132.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+204.2
+ 20
+112.75
+ 11
+204.2
+ 21
+92.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+131.7
+ 20
+92.75
+ 11
+131.7
+ 21
+112.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+131.7
+ 20
+132.75
+ 11
+131.7
+ 21
+152.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+131.7
+ 20
+172.75
+ 11
+131.7
+ 21
+192.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+92.2
+ 20
+192.75
+ 11
+92.2
+ 21
+172.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+92.2
+ 20
+152.75
+ 11
+92.2
+ 21
+132.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+92.2
+ 20
+112.75
+ 11
+92.2
+ 21
+92.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+19.7
+ 20
+92.75
+ 11
+19.7
+ 21
+112.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+19.7
+ 20
+132.75
+ 11
+19.7
+ 21
+152.75
+  0
+LINE
+  8
+Marking
+  6
+CONTINUOUS
+ 62
+200
+ 10
+19.7
+ 20
+172.75
+ 11
+19.7
+ 21
+192.75
+  0
+ARC
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+150.949672390
+ 20
+30.000586140
+ 40
+18.749672399
+ 50
+-179.998208857
+ 51
+-126.865577402
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+139.701
+ 20
+15
+ 11
+167.775
+ 21
+15
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+168.125
+ 20
+15
+ 11
+196.199
+ 21
+15
+  0
+ARC
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+184.950296788
+ 20
+30.000601553
+ 40
+18.749703221
+ 50
+-53.134375502
+ 51
+-0.001838239
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+203.7
+ 20
+30
+ 11
+204.2
+ 21
+30
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+204.2
+ 20
+30
+ 11
+204.2
+ 21
+69.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+204.2
+ 20
+69.5
+ 11
+204.2
+ 21
+70
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+204.2
+ 20
+70
+ 11
+206.7
+ 21
+67.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+206.7
+ 20
+67.5
+ 11
+209.2
+ 21
+42.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+209.2
+ 20
+42.5
+ 11
+228.566
+ 21
+42.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+228.916
+ 20
+42.5
+ 11
+234.91
+ 21
+42.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+234.91
+ 20
+42.5
+ 11
+240
+ 21
+61.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+240
+ 20
+61.5
+ 11
+243
+ 21
+64.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+243
+ 20
+64.5
+ 11
+243
+ 21
+85.422
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+243
+ 20
+85.772
+ 11
+243
+ 21
+140
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+240.747
+ 20
+217.753
+ 11
+243
+ 21
+215.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+243
+ 20
+215.5
+ 11
+243
+ 21
+191.918
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+243
+ 20
+191.568
+ 11
+243
+ 21
+140
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+203.7
+ 20
+30
+ 11
+199.95
+ 21
+30
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+196.2
+ 20
+33
+ 11
+196.2
+ 21
+31
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+196.2
+ 20
+31
+ 11
+196.2
+ 21
+30
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+196.2
+ 20
+30
+ 11
+199.95
+ 21
+30
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+139.7
+ 20
+33
+ 11
+139.7
+ 21
+31
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+139.7
+ 20
+31
+ 11
+139.7
+ 21
+30
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+139.7
+ 20
+30
+ 11
+132.2
+ 21
+30
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+132.2
+ 20
+30
+ 11
+131.7
+ 21
+30
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+131.7
+ 20
+30
+ 11
+131.7
+ 21
+69.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+131.7
+ 20
+69.5
+ 11
+131.7
+ 21
+70
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+131.7
+ 20
+70
+ 11
+129.2
+ 21
+67.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+129.2
+ 20
+67.5
+ 11
+126.7
+ 21
+42.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+126.7
+ 20
+42.5
+ 11
+114.02
+ 21
+42.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+113.67
+ 20
+42.5
+ 11
+100.99
+ 21
+42.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+100.99
+ 20
+42.5
+ 11
+95.9
+ 21
+61.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+95.9
+ 20
+61.5
+ 11
+92.9
+ 21
+64.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+92.9
+ 20
+64.5
+ 11
+92.9
+ 21
+70
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+92.9
+ 20
+70
+ 11
+19.7
+ 21
+70
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+19.7
+ 20
+70
+ 11
+5
+ 21
+73.94
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+5
+ 20
+73.94
+ 11
+5
+ 21
+142.75
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+20.2
+ 20
+255.5
+ 11
+19.7
+ 21
+255.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+19.7
+ 20
+255.5
+ 11
+19.7
+ 21
+215.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+19.7
+ 20
+215.5
+ 11
+5
+ 21
+211.56
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+5
+ 20
+211.56
+ 11
+5
+ 21
+142.75
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+27.7
+ 20
+252.5
+ 11
+27.7
+ 21
+254.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+27.7
+ 20
+254.5
+ 11
+27.7
+ 21
+255.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+27.7
+ 20
+255.5
+ 11
+20.2
+ 21
+255.5
+  0
+ARC
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+38.950034180
+ 20
+255.499982910
+ 40
+18.750034180
+ 50
+126.869949868
+ 51
+179.999947777
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+27.7
+ 20
+270.5
+ 11
+55.95
+ 21
+270.5
+  0
+ARC
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+72.950285343
+ 20
+255.499392724
+ 40
+18.749714667
+ 50
+0.001855728
+ 51
+53.134358013
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+84.199
+ 20
+270.5
+ 11
+55.95
+ 21
+270.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+84.2
+ 20
+252.5
+ 11
+84.2
+ 21
+254.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+84.2
+ 20
+254.5
+ 11
+84.2
+ 21
+255.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+84.2
+ 20
+255.5
+ 11
+91.7
+ 21
+255.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+91.7
+ 20
+255.5
+ 11
+92.2
+ 21
+255.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+92.2
+ 20
+255.5
+ 11
+92.2
+ 21
+215.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+92.2
+ 20
+215.5
+ 11
+94.7
+ 21
+218
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+94.7
+ 20
+218
+ 11
+97.2
+ 21
+243
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+97.2
+ 20
+243
+ 11
+122.91
+ 21
+243
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+122.91
+ 20
+243
+ 11
+128
+ 21
+224
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+128
+ 20
+224
+ 11
+131
+ 21
+221
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+131
+ 20
+221
+ 11
+131
+ 21
+215.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+131
+ 20
+215.5
+ 11
+167.95
+ 21
+215.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+240.5
+ 20
+218
+ 11
+238
+ 21
+243
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+238
+ 20
+243
+ 11
+212.99
+ 21
+243
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+212.99
+ 20
+243
+ 11
+207.9
+ 21
+224
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+207.9
+ 20
+224
+ 11
+204.9
+ 21
+221
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+204.9
+ 20
+221
+ 11
+204.9
+ 21
+215.5
+  0
+LINE
+  8
+Cutting
+  6
+CONTINUOUS
+ 62
+1
+ 10
+204.9
+ 20
+215.5
+ 11
+167.95
+ 21
+215.5
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+195.8
+ 20
+31
+ 11
+140.1
+ 21
+31
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+93.3
+ 20
+70
+ 11
+131.3
+ 21
+70
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+132.1
+ 20
+69.5
+ 11
+203.8
+ 21
+69.5
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+204.6
+ 20
+70
+ 11
+242.6
+ 21
+70
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+242.6
+ 20
+215.5
+ 11
+205.3
+ 21
+215.5
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+130.6
+ 20
+215.5
+ 11
+92.6
+ 21
+215.5
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+91.8
+ 20
+216
+ 11
+20.1
+ 21
+216
+  0
+LINE
+  8
+CreaseWithGrain
+  6
+CONTINUOUS
+ 62
+3
+ 10
+28.1
+ 20
+254.5
+ 11
+83.8
+ 21
+254.5
+  0
+LINE
+  8
+CreaseCrossGrain
+  6
+CONTINUOUS
+ 62
+4
+ 10
+204.2
+ 20
+215.1
+ 11
+204.2
+ 21
+70.4
+  0
+LINE
+  8
+CreaseCrossGrain
+  6
+CONTINUOUS
+ 62
+4
+ 10
+131.7
+ 20
+70.4
+ 11
+131.7
+ 21
+215.1
+  0
+LINE
+  8
+CreaseCrossGrain
+  6
+CONTINUOUS
+ 62
+4
+ 10
+92.2
+ 20
+215.1
+ 11
+92.2
+ 21
+70.4
+  0
+LINE
+  8
+CreaseCrossGrain
+  6
+CONTINUOUS
+ 62
+4
+ 10
+19.7
+ 20
+70.4
+ 11
+19.7
+ 21
+215.1
+  0
+ENDSEC
+  0
+EOF

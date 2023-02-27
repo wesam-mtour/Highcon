@@ -1,9 +1,10 @@
-﻿using Highcon.pom;
+﻿using Highcon.Infra;
+using Highcon.pom;
 using Highcon.webdriverinitializer;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using System;
-using Highcon.Infra;
+using System.IO;
 
 namespace Highcon.Tests.UITests.home
 {
@@ -12,6 +13,8 @@ namespace Highcon.Tests.UITests.home
         private HomePage homePage;
         private WebDriver webDriver;
         private readonly String WebDriverUrl = "https://integration.vulcan.highcon.link/queue";
+        //private NLogger nlogger = new NLogger();
+        NLogger nlogger = NLogger.GetInstance();
 
         [SetUp]
         public void SetUp()
@@ -23,9 +26,18 @@ namespace Highcon.Tests.UITests.home
         [Test]
         public void HomePageTitleTest()
         {
-            String pageTitle = Actions.GetText(homePage.homePageTitle);
-            // Test verification from the header title which should be equal to Job Queue
-            Assert.AreEqual(pageTitle, "Job Queue");
+            nlogger.logger.Info($"Test {TestContext.CurrentContext.Test.Name} started");
+            String pageTitle = homePage.GetHomePageTitleName();
+            /* Test verification from the header title which should be equal to Job Queue */
+            Assert.AreEqual(pageTitle, "Job Queue", "The title is not as expected");
+        }
+        [Test]
+        public void UploadFile()
+        {
+            string relativePath = @"..\..\Files\1.dxf";
+            string filePath = Path.GetFullPath(relativePath);
+            homePage.UploadFile(filePath);
+            
         }
 
         [TearDown]

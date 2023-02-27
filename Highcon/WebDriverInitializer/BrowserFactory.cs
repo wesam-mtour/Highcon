@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using System.Threading;
 
 namespace Highcon.webdriverinitializer
 {
@@ -9,9 +10,8 @@ namespace Highcon.webdriverinitializer
     {
         private static WebDriver webDriver;
         private static WebDriverWait wait;
-        private static int timeOut = 5;
-
-        public static WebDriver StartWebDriver(String browserName){
+        public static WebDriver StartWebDriver(String browserName, int timeOut=5)
+        {
             switch (browserName.ToLower())
             {
                 case "chrome":
@@ -19,7 +19,7 @@ namespace Highcon.webdriverinitializer
                     webDriver.Manage().Window.Maximize();
                     break;                    
             }
-            SetWaitInstance();
+            SetWaitInstance(timeOut);
             return (WebDriver)webDriver;
         }
         public static string Title()
@@ -38,7 +38,7 @@ namespace Highcon.webdriverinitializer
         {
             webDriver.Quit();
         }
-        public static void SetWaitInstance()
+        public static void SetWaitInstance(int timeOut = 5) 
         {
             WebDriverWait webDriverWait = new WebDriverWait(webDriver, TimeSpan.FromSeconds(timeOut));
             wait = webDriverWait;
