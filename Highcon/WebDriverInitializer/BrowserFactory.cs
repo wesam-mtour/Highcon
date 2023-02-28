@@ -10,7 +10,7 @@ namespace Highcon.webdriverinitializer
     {
         private static WebDriver webDriver;
         private static WebDriverWait wait;
-        public static WebDriver StartWebDriver(String browserName, int timeOut=5)
+        public static WebDriver StartWebDriver(String browserName, int timeOut=10)
         {
             switch (browserName.ToLower())
             {

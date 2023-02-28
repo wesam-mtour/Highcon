@@ -12,25 +12,28 @@ using Highcon.pom;
 using Highcon.webdriverinitializer;
 using NUnit.Framework;
 using OpenQA.Selenium;
-using System;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
+using System.Runtime.CompilerServices;
+using System.Diagnostics;
 
 namespace Highcon.Infra
 {
-    public class NLogger
+    internal class NLogger
     {
+        // Private instance of the logger to implement the singleton pattern
         private static NLogger instance = null;
-        public ILog logger;
+        // ILog object that will be used for logging messages
+        public static ILog logger;
+        // Counter to keep track of the number of steps taken in the test
+        private static int counter = 1;
+
+        // Private constructor to prevent instantiation from outside the class
         private NLogger()
         {
             var layout = new PatternLayout
             {
-                ConversionPattern = "%date{dd-MMM-yyyy HH:mm:ss} %-5level %method: %message%newline" +
-                "%date{dd-MMM-yyyy HH:mm:ss} %-5level %method:----------------------------------------" +
-                "--------------------" +
-                "%newline%date{dd-MMM-yyyy HH:mm:ss} %-5level %method:--------------------------------" +
-                "----------------------------%newline"
+                ConversionPattern = "%date{dd-MMM-yyyy HH:mm:ss} %message%newline"
             };
             layout.ActivateOptions();
 
@@ -43,16 +46,40 @@ namespace Highcon.Infra
             consoleAppender.ActivateOptions();
             BasicConfigurator.Configure(consoleAppender);
 
-            this.logger = LogManager.GetLogger(typeof(NLogger));
+            logger = LogManager.GetLogger(typeof(NLogger));
         }
 
+        // GetInstance function to implement the singleton pattern
         public static NLogger GetInstance()
         {
             if (instance == null)
             {
                 instance = new NLogger();
             }
-            return instance;            
+            return instance;
+        }
+
+        // STEP function for logging a step in the test with the calling method and step number
+        public static void STEP(string message)
+        {
+            instance = GetInstance();
+            var stackTrace = new StackTrace();
+            var callingMethod = stackTrace.GetFrame(1).GetMethod().Name;
+            logger.Info($"STEP {callingMethod}: {counter}" + ". " + $"{message}\r\n" +
+                $"\t\t\t\t\t STEP {callingMethod}: ------------------------------------------------------------\r\n" +
+                $"\t\t\t\t\t STEP {callingMethod}: ------------------------------------------------------------");
+        counter++;
+        }
+
+        // INFO function for logging a message with the calling method
+        public static void INFO(string message)
+        {
+            instance = GetInstance();
+            var stackTrace = new StackTrace();
+            var callingMethod = stackTrace.GetFrame(1).GetMethod().Name;
+            logger.Info($"INFO {callingMethod}: {message}\r\n" +
+                $"\t\t\t\t\t INFO {callingMethod}: ------------------------------------------------------------\r\n" +
+                $"\t\t\t\t\t INFO {callingMethod}: ------------------------------------------------------------");
         }
     }
 }
