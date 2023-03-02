@@ -19,13 +19,11 @@ namespace Highcon.Pom
         // Selector for the job name element
         public By jobName = By.Id("JobNameJCH");
 
-        // Selector for the close button element
+        // Selector for the job name element
+        public By jobStatus = By.Id("JobStatusJCH");
 
         // Selector for the close button element
         public By closeBtn = By.Id("CloseBtnPS");
-
-        // Selector for the jobs list element
-        public By jobsList = By.Id("cdk-drop-list-2");
 
         // Returns the text of the alert message element
         public string GetAlertTextMessage()
@@ -43,6 +41,10 @@ namespace Highcon.Pom
         public string GetJobName()
         {
             return Actions.GetText(jobName);
+        }
+        public string GetJobStatus()
+        {
+            return Actions.GetText(jobStatus);
         }
     }
 }

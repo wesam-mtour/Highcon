@@ -5,6 +5,8 @@ using Highcon.webdriverinitializer;
 using SeleniumExtras.WaitHelpers;
 using AutoIt;
 using NUnit.Framework;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Highcon.Infra
 {
@@ -21,7 +23,7 @@ namespace Highcon.Infra
             wait.Until(ExpectedConditions.ElementIsVisible(by));
             // Find the element and get its text
             IWebElement webElement = webDriver.FindElement(by);
-            NLogger.INFO("Element text: " + webElement.Text);
+            TestLogger.INFO("Element text: " + webElement.Text);
             return webElement.Text;
         }
 
@@ -53,10 +55,10 @@ namespace Highcon.Infra
             AutoItX.ControlClick("Open", "", "Button1");
         }
 
-        // Function to assert that two values are equal, with an optional error message
-        public static void AreEqual(string expectedValue, string actualValue, string errorMsg = "")
+        // Wait for the element to be visible before doing actions
+        public static void waitElementToBeVisible(By by)
         {
-            Assert.AreEqual(expectedValue, actualValue, errorMsg);
+            wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(by));
         }
     }
 }

@@ -73,7 +73,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infra\Actions.cs" />
-    <Compile Include="Infra\NLogger.cs" />
+    <Compile Include="Infra\Utils.cs" />
+    <Compile Include="Infra\TestLogger.cs" />
     <Compile Include="Pom\HomePage.cs" />
     <Compile Include="Pom\JobPage.cs" />
     <Compile Include="Program.cs" />
